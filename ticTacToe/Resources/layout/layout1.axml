@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ViewFlipper
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/viewFlipper4">
+		<TableLayout
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/tableLayout1">
+			<TableRow
+				android:id="@+id/tableRow1"
+				android:layout_height="130.5dp">
+				<Button
+					android:layout_column="0"
+					android:id="@+id/button1"
+					android:layout_width="122.5dp"
+					android:layout_height="92.0dp"
+					android:longClickable="true"/>
+				<Button
+					android:layout_column="1"
+					android:id="@+id/button2"
+					android:layout_height="93.5dp"
+					android:layout_width="117.0dp"/>
+				<Button
+					android:layout_column="2"
+					android:id="@+id/button3"
+					android:layout_height="89.0dp"
+					android:layout_width="122.5dp" />
+			</TableRow>
+			<TableRow
+				android:id="@+id/tableRow2">
+				<Button
+					android:layout_column="0"
+					android:id="@+id/button4"
+					android:layout_height="85.0dp" />
+				<Button
+					android:layout_column="1"
+					android:id="@+id/button5"
+					android:layout_height="87.0dp" />
+				<Button
+					android:layout_column="2"
+					android:id="@+id/button6"
+					android:layout_height="89.0dp"/>
+			</TableRow>
+			<TableRow
+				android:id="@+id/tableRow3"
+				android:layout_height="151.5dp">
+				<Button
+					android:layout_column="0"
+					android:id="@+id/button7"
+					android:layout_height="89.5dp" />
+				<Button
+					android:layout_column="1"
+					android:id="@+id/button8"
+					android:layout_height="87.0dp" />
+				<Button
+					android:layout_column="2"
+					android:id="@+id/button9"
+					android:layout_height="90.0dp" />
+			</TableRow>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/linearLayout1"
+				android:layout_height="267.0dp">
+				<Button
+					android:text="exit"
+					android:layout_width="365.5dp"
+					android:layout_height="80.5dp"
+					android:id="@+id/btnExit" />
+			</LinearLayout>
+		</TableLayout>
+	</ViewFlipper>
+
+</LinearLayout>
